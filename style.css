@@ -5,21 +5,27 @@ body, html {
   color: White;
 }
 
-.cd-logo {
+ .cake-ingredients {
+    background-image: url("ingredients.jpg");
+  }
+  .cd-logo, .kitchen-equipment, .cake-ingredients {
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #642580;
   background-size: cover;
   min-height: 100%;
-}
 
+  background-attachment: fixed;
+}
 .cd-logo {
   background-image: url("CoderDojo.png");
   min-height: 100%;
   background-size: auto;
 }
-
+.kitchen-equipment {
+    background-image: url("utensils.JPG");
+  }
 h3 {
   letter-spacing: 5px;
   text-transform: uppercase;
@@ -31,4 +37,17 @@ h3 {
 .textSection {
   background-color:#642580;
   padding:50px 80px;
+}
+.caption {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+}
+.border {
+  background-color: #41BAC1;
+  color: White;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
 }
